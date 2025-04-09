@@ -1,0 +1,34 @@
+body {
+    font-family: 'Microsoft JhengHei', Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.header {
+    background-color: #28a745;
+    color: white;
+    padding: 15px 0;
+    margin-bottom: 30px;
+}
+
+.table {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.table th {
+    background-color: #343a40;
+    color: white;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.container {
+    max-width: 1200px;
+}

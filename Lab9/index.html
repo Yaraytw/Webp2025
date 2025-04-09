@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>景點觀光展覽資訊</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="text-center mb-4">景點觀光展覽資訊</h1>
+        
+        <div class="d-flex justify-content-between mb-3">
+            <button onclick="fetchData()" class="btn btn-primary">獲取最新展覽資訊</button>
+            <button onclick="delOldData()" class="btn btn-danger">清除舊資料</button>
+        </div>
+        
+        <table id="csie" class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>名稱</th>
+                    <th>地點</th>
+                    <th>票價</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- 資料將由JavaScript動態生成 -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
